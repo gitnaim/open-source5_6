@@ -1,0 +1,82 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+	border: none;
+}
+body {
+	margin: 20px;
+	padding: 20px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	background-color: #f1f1f1;
+}
+.title {
+	font-size: 1.5em;
+	font-weight: 300;
+	color: #555;
+}
+.container {
+	margin-top: 50px;
+}
+nav {
+	font-size: 0.875em;
+}
+nav > ul {
+	width: 200px;
+}
+nav > ul > li {
+	margin-top: 3px;
+}
+nav > ul > li:first-child {
+	margin-top: 0;
+}
+nav > ul > li > a {
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 20px;
+	text-decoration: none;
+	background-color: #8ac007;
+	color: #fff;
+}
+nav > ul > li.active > a {
+	background-color: #6c8532;
+}
+nav li ul {
+	display: none;
+	overflow: hidden;
+}
+nav li li {
+	border-top: 1px solid #eaeaea;
+}
+nav li li:first-child {
+	border-top: none;
+}
+nav li li a {
+	display: block;
+	line-height: 35px;
+	text-decoration: none;
+	text-indent: 20px;
+	background-color: #fff;
+	color: #555;
+}
+nav li li a:hover,
+nav li li a:focus {
+	background-color: #eaeaea;
+	color: #333;
+}
